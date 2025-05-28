@@ -13,4 +13,4 @@ for i in range (1,number_of_item + 1):
 if total_price > 100:
     total_price *= 0.9
 
-print (f"total price for {number_of_item} is $ {total_price}")
+print (f"total price for {number_of_item} is $ {total_price:.2f}")
