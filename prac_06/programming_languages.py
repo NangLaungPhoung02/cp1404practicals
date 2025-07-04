@@ -14,7 +14,7 @@ class ProgrammingLanguages:
         self.year = year
 
     def is_dynamic(self):
-        """Return true if the language uses dynamic typing."""
+        """Return true if the language uses dynamic typing. """
         return self.typing.lower() == "dynamic"
 
     def __str__(self):
