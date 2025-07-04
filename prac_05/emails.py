@@ -1,5 +1,5 @@
 """ word occurrences
-Estimate : 30 minutes
+Estimate : 40 minutes
 Actual: 1 hour and 15 minutes """
 
 def main():
