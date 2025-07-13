@@ -117,5 +117,7 @@ def update_project(projects):
     except (ValueError, IndexError):
         print("Invalid selection.")
 
+main()
+
 
 
