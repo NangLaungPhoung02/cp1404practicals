@@ -1,6 +1,6 @@
 """ Hex  colour lookup
 Estimate : 15 minutes
-Actual: 25 minutes """
+Actual: 35 minutes """
 
 COLOUR_TO_HEX = {"Absolute Zero": "#0048ba",
                  "Acid Green": "#b0bf1a",

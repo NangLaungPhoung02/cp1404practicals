@@ -1,6 +1,6 @@
 """ wimbledon.py
 Estimate : 40 minutes
-Actual: 1 hour  """
+Actual: 1 hour """
 
 
 FILENAME = "wimbledon.csv"
