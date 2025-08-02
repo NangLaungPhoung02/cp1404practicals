@@ -26,6 +26,22 @@ def is_long_word(word, length=5):
     return len(word) >= length
 
 
+def format_sentence(phrase):
+    """ format as sentence, starting with a capital and ending with a single full stop by phrasing.
+    >>> format_sentence("hello")
+    'Hello'
+    >>> format_sentence("It is an ex parrot")
+    'It is an ex parrot.'
+    >>> format_sentence("already has a dot.")
+    'already has a dot.
+    """
+    phrase = phrase.strip()
+    if not phrase.endswith("."):
+        phrase += "."
+    return phrase[0].upper() +phrase[1:]
+
+
+
 def run_tests():
     """Run the tests on the functions."""
     # assert test with no message - used to see if the function works properly
