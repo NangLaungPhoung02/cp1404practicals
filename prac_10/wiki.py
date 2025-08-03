@@ -21,9 +21,18 @@ def get_wikipedia_page(title):
     """Try to get a wikipedia page for the given title."""
     try:
         return wikipedia.page(title, auto_suggest = False)
-    except wikipedia.DisambiguationError as e:
-        handle_disambigution_error(title, e)
+    except wikipedia.DisambiguationError as error:
+        handle_disambiguation_error(title, error)
     except wikipedia.pageError:
         handle_page_error(title)
     return None
 
+def handle_disambiguation_error(title, error):
+    """ Handle wikipedia disambiguation errors by displaying suggested alternatives."""
+    print(f'We need a more specific title for "{title}". Try one of the following:')
+    for option in error.options:
+        print(f"-{option}")
+
+def handle_page_error(title):
+    """Handle wikipedia page errors by displaying suggested alternatives."""
+    print(f'Page "{title}" does not exist. Please try another search.')
