@@ -8,6 +8,8 @@ def main():
     for title in titles:
         page = get_wikipedia_page(title)
 
+    print("Thank you")
+
 def prompt_user_for_titles():
     """Prompt the user for page titles and return them one by one."""
     titles =[]
@@ -36,3 +38,9 @@ def handle_disambiguation_error(title, error):
 def handle_page_error(title):
     """Handle wikipedia page errors by displaying suggested alternatives."""
     print(f'Page "{title}" does not exist. Please try another search.')
+
+def display_page_info(page):
+    """Display the title, a short summary and the url of a wikipedia page."""
+    print(f"\n {page.title}")
+    print(wikipedia.summary(page.title,sentences = SUMMARY_SENTENCES))
+    print(page.url)
