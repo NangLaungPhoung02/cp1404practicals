@@ -1,0 +1,17 @@
+Taking CP1404 has been a valuable and rewarding experience in my
+journey to learn programming. Before this subject, I had very little
+experience with coding, but through structured weekly practicals and
+clear explanations, I’ve developed a strong foundation in Python.
+I learned how to write clean and reusable code using functions, classes,
+and proper structure. I especially enjoyed learning about object-oriented
+programming, error handling, and how to build interactive programs like
+GUIs using Kivy and simple web apps using Flask. Working with external
+APIs like Wikipedia also opened my eyes to how real-world applications are built.
+One of the most important lessons I learned is the value of debugging and testing –
+how to break down problems and fix issues systematically. The subject
+also emphasized good coding practices like SRP (Single Responsibility Principle),
+using meaningful names, and avoiding anti-patterns. Overall,
+CP1404 has helped me build problem-solving skills and given me the confidence
+to take on more advanced programming projects in the future.
+
+
